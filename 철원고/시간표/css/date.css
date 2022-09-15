@@ -1,0 +1,7 @@
+.date {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
