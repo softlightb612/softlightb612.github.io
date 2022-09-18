@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="kr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
 </head>
+
 <body>
-    <h2>3-2 시간표</h2>
+	<h2>3-2 시간표</h2>
 	<table border="5">
 		<tr>
 			<th>교시</th>
@@ -74,5 +76,29 @@
 			<th>수학2</th>
 		</tr>
 	</table>
+	<select title="학년/반/이름을 선택해주세요" onchange="window.open(value,'_self');" name="schedule" id="schedule-select">
+		<optgroup label="1학년">
+			<option value="1-1.html" selected>1-1</option>
+			<option value="1-2.html" selected>1-2</option>
+			<option value="1-3.html" selected>1-3</option>
+			<option value="1-4.html" selected>1-4</option>
+		</optgroup>
+		<optgroup label="2학년">
+			<option value="2-1.html" selected>2-1</option>
+			<option value="2-2.html" selected>2-2</option>
+			<option value="2-3.html" selected>2-3</option>
+		</optgroup>
+		<optgroup label="3학년">
+			<option value="3-1.html" selected>3-1</option>
+			<option value="3-2.html" selected>3-2</option>
+			<option value="3-3.html" selected>3-3</option>
+		</optgroup>
+		<optgroup label="선생님">
+			<option value="전은지1.html" selected>전은지 선생님</option>
+		</optgroup>
+		<option value="">학년/반/이름을 선택해주세요</option>
+	</select>
+	<p>아직 개발중</p>
 </body>
+
 </html>
