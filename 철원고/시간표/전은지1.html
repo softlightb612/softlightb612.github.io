@@ -94,7 +94,7 @@
     <!-- 처음으로 돌아가기 -->
     <a href="/index.html">처음으로 돌아가기</a>
     <select title="학년/반/이름을 선택해주세요" onchange="window.open(value,'_self');" name="schedule" id="schedule-select">
-        
+        <option value="">학년/반/이름을 선택해주세요</option>
         <optgroup label="1학년">
             <option value="1-1.html" selected>1-1</option>
             <option value="1-2.html" selected>1-2</option>
@@ -112,9 +112,14 @@
             <option value="3-3.html" selected>3-3</option>
         </optgroup>
         <optgroup label="선생님">
-                <option value="전은지1.html" selected>전은지 선생님</option>
+            <option value="전은지1.html" selected>전은지 선생님</option>
         </optgroup>
-        <option value="">학년/반/이름을 선택해주세요</option>
+    </select>
+    <select title="" onchange="window.open(value,'_self');" name="eunji" id="only-eunji">
+        <optgroup label="날짜">
+            <option value="전은지1.html" selected>09월 19일~23일</option>
+            <option value="전은지2.html" selected>09월 26일~30일</option>
+        </optgroup>
     </select>
 </body>
 
