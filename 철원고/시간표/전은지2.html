@@ -92,11 +92,34 @@
     <p>문의사항: 010-3323-6939</p>
     <!-- 처음으로 돌아가기 -->
     <a href="/index.html">처음으로 돌아가기</a>
+    <select title="학년/반/이름을 선택해주세요" onchange="window.open(value,'_self');" name="schedule" id="schedule-select">
+        <option value="">학년/반/이름을 선택해주세요.</option>
+        <option value="">이동이 안되면 저를 한 번 선택하여주세요!</option>
+        <optgroup label="1학년">
+            <option value="1-1.html" selected>1-1</option>
+            <option value="1-2.html" selected>1-2</option>
+            <option value="1-3.html" selected>1-3</option>
+            <option value="1-4.html" selected>1-4</option>
+        </optgroup>
+        <optgroup label="2학년">
+            <option value="2-1.html" selected>2-1</option>
+            <option value="2-2.html" selected>2-2</option>
+            <option value="2-3.html" selected>2-3</option>
+        </optgroup>
+        <optgroup label="3학년">
+            <option value="3-1.html" selected>3-1</option>
+            <option value="3-2.html" selected>3-2</option>
+            <option value="3-3.html" selected>3-3</option>
+        </optgroup>
+        <optgroup label="선생님">
+            <option value="전은지1.html" selected>전은지 선생님</option>
+        </optgroup>
+    </select>
     <select title="" onchange="window.open(value,'_self');" name="eunji" id="only-eunji">
         <optgroup label="날짜">
-            <option value="">이동이 안되면 저를 한 번 선택하여주세요!</option>
             <option value="전은지1.html" selected>09월 19일~23일</option>
             <option value="전은지2.html" selected>09월 26일~30일</option>
+            <option value="">이동이 안되면 저를 한 번 선택하여주세요!</option>
         </optgroup>
     </select>
 </body>
